@@ -1,1 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BDsms SYSTEM "BDsms.dtd">
+<BDsms>
+    <sms>
+        <telefono>955 55 66 55</telefono>
+        <fecha>01/07/2021</fecha>
+        <hora>23:25</hora>
+        <mensaje>Juego1:Tetris</mensaje>
+    </sms>
+    <sms>
+        <telefono>624022017</telefono>
+        <fecha>24/02/2017</fecha>
+        <hora>20:15</hora>
+        <mensaje>Juego2:Comecocos</mensaje>
+    </sms>
+    <sms>
+        <telefono>777888999</telefono>
+        <fecha>25/09/2001</fecha>
+        <hora>18:05</hora>
+        <mensaje>Juego3:Ark</mensaje>
+    </sms>
+</BDsms>
