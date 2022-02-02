@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="modulos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="programacion"/>
+        <xs:element ref="LenguajeMarcas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="programacion" type="Clase1"/>
+  <xs:element name="LenguajeMarcas" type="Clase1"/>
+  <xs:complexType name="Clase1">
+    <xs:sequence>
+      <xs:element ref="Clase1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Clase1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Contenidos"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Contenidos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Tema1"/>
+        <xs:element ref="Tema2"/>
+        <xs:element ref="Tema3"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Tema1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="lenguaje"/>
+        <xs:element ref="tipo"/>
+        <xs:element ref="duracion"/>
+        <xs:element ref="descripcion"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Tema2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="lenguaje"/>
+        <xs:element ref="tipo"/>
+        <xs:element ref="duracion"/>
+        <xs:element ref="descripcion"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Tema3">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="lenguaje"/>
+        <xs:element ref="tipo"/>
+        <xs:element ref="duracion"/>
+        <xs:element ref="descripcion"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lenguaje" type="xs:string"/>
+  <xs:element name="tipo">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="duracion" type="xs:string"/>
+  <xs:element name="descripcion" type="xs:string"/>
+</xs:schema>

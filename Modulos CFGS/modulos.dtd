@@ -1,0 +1,49 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT modulos (programacion,LenguajeMarcas)>
+<!ATTLIST modulos
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT programacion (Clase1)>
+<!ATTLIST programacion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT LenguajeMarcas (Clase1)>
+<!ATTLIST LenguajeMarcas
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Clase1 (Contenidos)>
+<!ATTLIST Clase1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Contenidos (Tema1,Tema2,Tema3)>
+<!ATTLIST Contenidos
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tema1 (lenguaje,tipo,duracion,descripcion)>
+<!ATTLIST Tema1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tema2 (lenguaje,tipo,duracion,descripcion)>
+<!ATTLIST Tema2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tema3 (lenguaje,tipo,duracion,descripcion)>
+<!ATTLIST Tema3
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT lenguaje (#PCDATA)>
+<!ATTLIST lenguaje
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT tipo EMPTY>
+<!ATTLIST tipo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT duracion (#PCDATA)>
+<!ATTLIST duracion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT descripcion (#PCDATA)>
+<!ATTLIST descripcion
+  xmlns CDATA #FIXED ''>

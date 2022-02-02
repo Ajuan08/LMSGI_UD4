@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE Bookomerce SYSTEM "Bookomerce.dtd">
+<Bookomerce>
+    <Tienda1>
+        <escritor1>
+            <autor>
+                <apellidos>Rios Fernandez</apellidos>
+                <DNI>22335577V</DNI>
+                <nombre>Antonio Juan</nombre>
+            </autor>
+        </escritor1>
+        <titulo>Gerónimo Stilton</titulo>
+        <fama>Alta</fama>
+        <fecha_publicacion>Febrero 2017</fecha_publicacion>
+        <codLibro>0012</codLibro>
+        <escritor2>
+            <autor>
+                <apellidos>Mateos Puerta</apellidos>
+                <DNI>32065317J</DNI>
+                <nombre>Sergio</nombre>
+            </autor>
+        </escritor2>
+        <titulo>El ladron de guante blanco</titulo>
+        <fama>Media</fama>
+        <fecha_publicacion>Agosto 2012</fecha_publicacion>
+        <codLibro>5500</codLibro>
+    </Tienda1>
+    <Tienda2>
+        <escritor1>
+            <autor>
+                <apellidos>Gonzalez Perez</apellidos>
+                <DNI>11002277O</DNI>
+                <nombre>Laura</nombre>
+            </autor>
+        </escritor1>
+        <titulo>Lazarillo de Thormes</titulo>
+        <fama>Baja</fama>
+        <fecha_publicacion>Abril 2010</fecha_publicacion>
+        <codLibro>1111</codLibro>
+        <escritor2>
+            <autor>
+                <apellidos>Rodriguez Castro</apellidos>
+                <DNI>32065317J</DNI>
+                <nombre>Ana</nombre>
+            </autor>
+        </escritor2>
+        <titulo>La luna blanca</titulo>
+        <fama>Alta</fama>
+        <fecha_publicacion>Diciembre 2002</fecha_publicacion>
+        <codLibro>9999</codLibro>
+    </Tienda2>
+</Bookomerce>

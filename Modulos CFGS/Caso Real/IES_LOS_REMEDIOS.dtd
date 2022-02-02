@@ -1,0 +1,53 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT IES_LOS_REMEDIOS (Asignaturas)+>
+<!ATTLIST IES_LOS_REMEDIOS
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Asignaturas (LenguajeMarcas|programacion)>
+<!ATTLIST Asignaturas
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT LenguajeMarcas (Contenidos)>
+<!ATTLIST LenguajeMarcas
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT programacion (Contenidos)>
+<!ATTLIST programacion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Contenidos (Tema1,Tema2,Tema3)>
+<!ATTLIST Contenidos
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tema1 (lenguaje,tipo,duracion,descripcion,nombre_profesor)>
+<!ATTLIST Tema1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tema2 (lenguaje,tipo,duracion,descripcion,nombre_profesor)>
+<!ATTLIST Tema2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tema3 (lenguaje,tipo,duracion,descripcion,nombre_profesor)>
+<!ATTLIST Tema3
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT lenguaje (#PCDATA)>
+<!ATTLIST lenguaje
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT tipo (#PCDATA)>
+<!ATTLIST tipo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT duracion (#PCDATA)>
+<!ATTLIST duracion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT descripcion (#PCDATA)>
+<!ATTLIST descripcion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nombre_profesor (#PCDATA)>
+<!ATTLIST nombre_profesor
+  xmlns CDATA #FIXED ''>

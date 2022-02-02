@@ -1,0 +1,57 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT clientes (departamento)>
+<!ATTLIST clientes
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT departamento (sede)+>
+<!ATTLIST departamento
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sede ((cliente1|cliente2),codSede,nombre,fecha,descripcion)>
+<!ATTLIST sede
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT cliente1 (codCliente,NViviendas,coste,resumen,plazo)>
+<!ATTLIST cliente1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT cliente2 (codCliente,NViviendas,coste,resumen,plazo)>
+<!ATTLIST cliente2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT codSede (#PCDATA)>
+<!ATTLIST codSede
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fecha (#PCDATA)>
+<!ATTLIST fecha
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT descripcion (#PCDATA)>
+<!ATTLIST descripcion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT codCliente (#PCDATA)>
+<!ATTLIST codCliente
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT NViviendas (#PCDATA)>
+<!ATTLIST NViviendas
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT coste (#PCDATA)>
+<!ATTLIST coste
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT resumen (#PCDATA)>
+<!ATTLIST resumen
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT plazo (#PCDATA)>
+<!ATTLIST plazo
+  xmlns CDATA #FIXED ''>

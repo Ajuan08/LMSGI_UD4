@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE modulos SYSTEM "modulos.dtd">
+<modulos>
+    <programacion>
+        <Clase1>
+            <Contenidos>
+                <Tema1>
+                    <lenguaje>JAVA</lenguaje>
+                    <tipo>Practico</tipo>
+                    <duracion>3 meses</duracion>
+                    <descripcion>Dificultad alta</descripcion>
+                </Tema1>
+                <Tema2>
+                    <lenguaje>PHYTON</lenguaje>
+                    <tipo>Practico</tipo>
+                    <duracion>2 meses</duracion>
+                    <descripcion>Dificultad facil</descripcion>
+                </Tema2>
+                <Tema3>
+                    <lenguaje>C++</lenguaje>
+                    <tipo>Practico</tipo>
+                    <duracion>4 meses</duracion>
+                    <descripcion>Dificultad media</descripcion>
+                </Tema3>
+            </Contenidos>
+        </Clase1>
+    </programacion>
+    <LenguajeMarcas>
+        <Clase1>
+            <Contenidos>
+                <Tema1>
+                    <lenguaje>XML</lenguaje>
+                    <tipo>Practico</tipo>
+                    <duracion>2 meses</duracion>
+                    <descripcion>Dificultad media</descripcion>
+                </Tema1>
+                <Tema2>
+                    <lenguaje>HTML</lenguaje>
+                    <tipo>Teorico</tipo>
+                    <duracion>4 meses</duracion>
+                    <descripcion>Dificultad facil</descripcion>
+                </Tema2>
+                <Tema3>
+                    <lenguaje>CSS</lenguaje>
+                    <tipo>Teorico</tipo>
+                    <duracion>3 meses</duracion>
+                    <descripcion>Dificultad media</descripcion>
+                </Tema3>
+            </Contenidos>
+        </Clase1>
+    </LenguajeMarcas>
+</modulos>

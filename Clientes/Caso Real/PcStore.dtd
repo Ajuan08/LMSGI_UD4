@@ -1,0 +1,49 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT PcStore (Tienda1,Tienda2)>
+<!ATTLIST PcStore
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tienda1 (Madrid)+>
+<!ATTLIST Tienda1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tienda2 (Jerez)+>
+<!ATTLIST Tienda2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Madrid (cliente1,CodPostal,fecha,descripcion)>
+<!ATTLIST Madrid
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Jerez (cliente1,CodPostal,fecha,descripcion)>
+<!ATTLIST Jerez
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT cliente1 (nombre,telefono,email)>
+<!ATTLIST cliente1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CodPostal (#PCDATA)>
+<!ATTLIST CodPostal
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fecha (#PCDATA)>
+<!ATTLIST fecha
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT descripcion (#PCDATA)>
+<!ATTLIST descripcion
+  xmlns CDATA #FIXED ''>

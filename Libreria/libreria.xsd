@@ -1,0 +1,33 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="libreria">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="libros" maxOccurs="unbounded" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="autores">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="autor">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element type="xs:string" name="apellidos"/>
+                        <xs:element type="xs:string" name="DNI"/>
+                        <xs:element type="xs:string" name="nombre"/>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element type="xs:string" name="titulo"/>
+            <xs:element type="xs:string" name="editorial"/>
+            <xs:element type="xs:string" name="fecha"/>
+            <xs:element type="xs:short" name="codLibro"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>

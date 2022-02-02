@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="IS0-8859-1"?>
+<!DOCTYPE Mercedes SYSTEM "Mercedes.dtd">
+<Mercedes>
+    <modelos>
+        <EQS>
+            <codIdentificacion>0011</codIdentificacion>
+            <modelo>Sport</modelo>
+            <matricula>2402DYG</matricula>
+            <potencia>400</potencia>
+            <plazas>5</plazas>
+            <precio>100.000€</precio>   
+        </EQS>
+        <AMG>
+            <codIdentificacion>1122</codIdentificacion>
+            <modelo>Competition</modelo>
+            <matricula>2200GYT</matricula>
+            <potencia>300</potencia>
+            <plazas>2</plazas>
+            <precio>50.000€</precio> 
+        </AMG>
+        <Clase>
+            <codIdentificacion>3333</codIdentificacion>
+            <modelo>Coupe</modelo>
+            <matricula>6677DES</matricula>
+            <potencia>200</potencia>
+            <plazas>2</plazas>
+            <precio>20.000€</precio> 
+        </Clase>
+    </modelos> 
+</Mercedes>

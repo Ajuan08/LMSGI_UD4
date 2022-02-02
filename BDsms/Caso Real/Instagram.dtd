@@ -1,0 +1,50 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Instagram (contactos+,mensajes+)>
+<!ATTLIST Instagram
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT contactos (nombre,username,fechaCreacion,pais)>
+<!ATTLIST contactos
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT mensajes (id,remitente,username,fechaEnvio,fechaRecepcion,
+                    mensaje)>
+<!ATTLIST mensajes
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fechaCreacion (#PCDATA)>
+<!ATTLIST fechaCreacion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT pais (#PCDATA)>
+<!ATTLIST pais
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT id (#PCDATA)>
+<!ATTLIST id
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT remitente (#PCDATA)>
+<!ATTLIST remitente
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fechaEnvio (#PCDATA)>
+<!ATTLIST fechaEnvio
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fechaRecepcion (#PCDATA)>
+<!ATTLIST fechaRecepcion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT mensaje (#PCDATA)>
+<!ATTLIST mensaje
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT username (#PCDATA)>
+<!ATTLIST username
+  xmlns CDATA #FIXED ''>

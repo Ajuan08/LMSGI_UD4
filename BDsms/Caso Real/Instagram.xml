@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCTYPE Instagram SYSTEM "Instagram.dtd">
+<Instagram>
+    <contactos>
+        <nombre>Sergo Mateos</nombre>
+        <username>sergio_mateos00</username>
+        <fechaCreacion>01/07/2014</fechaCreacion>
+        <pais>España</pais>
+    </contactos>
+    <contactos>
+        <nombre>Airam Linares</nombre>
+        <username>airam_xerez</username>
+        <fechaCreacion>22/11/2015</fechaCreacion>
+        <pais>España</pais>
+    </contactos>
+    <contactos>
+        <nombre>Alvaro Moreno</nombre>
+        <username>alvaroMorenoGil_</username>
+        <fechaCreacion>01/06/2010</fechaCreacion>
+        <pais>España</pais>
+    </contactos>
+    <mensajes>
+        <id>00001</id>
+        <remitente>Sergo Mateos</remitente>
+        <username>sergio_mateos00</username>
+        <fechaEnvio>01/07/2014</fechaEnvio>
+        <fechaRecepcion>01/07/2014</fechaRecepcion>
+        <mensaje>¿Hola que tal?</mensaje>
+    </mensajes>
+    <mensajes>
+        <id>00002</id>
+        <remitente>Airam Linares</remitente>
+        <username>airam_xerez</username>
+        <fechaEnvio>02/07/2021</fechaEnvio>
+        <fechaRecepcion>02/07/2021</fechaRecepcion>
+        <mensaje>¿Como estas?</mensaje>
+    </mensajes>
+    <mensajes>
+        <id>00003</id>
+        <remitente>Alvaro Moreno</remitente>
+        <username>alvaroMorenoGil_</username>
+        <fechaEnvio>10/10/2021</fechaEnvio>
+        <fechaRecepcion>10/10/2021</fechaRecepcion>
+        <mensaje>¿Juegas a algo?</mensaje>
+    </mensajes>
+</Instagram>

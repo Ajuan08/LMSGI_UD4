@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE libreria SYSTEM "libreria.dtd">
+<libreria>
+    <libros>
+        <autores>
+            <autor>
+                <apellidos>Rios Fernandez</apellidos>
+                <DNI>223355779V</DNI>
+                <nombre>Antonio Juan</nombre>
+            </autor>
+        </autores>
+        <titulo>Gerónimo Stilton</titulo>
+        <editorial>Anaya</editorial>
+        <fecha>Febrero 2017</fecha>
+        <codLibro>0012</codLibro>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellidos>Mateos Puerta</apellidos>
+                <DNI>998877665A</DNI>
+                <nombre>Sergio</nombre>
+            </autor>
+        </autores>
+        <titulo>Dos tontos muy tontos</titulo>
+        <editorial>ABC</editorial>
+        <fecha>Enero 2001</fecha>
+        <codLibro>8821</codLibro>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellidos>Linares Ossorio</apellidos>
+                <DNI>441133225J</DNI>
+                <nombre>Airam</nombre>
+            </autor>
+        </autores>
+        <titulo>El amor de ella</titulo>
+        <editorial>Anaya</editorial>
+        <fecha>Agosto 2021</fecha>
+        <codLibro>4457</codLibro>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellidos>Marquez Mendoza</apellidos>
+                <DNI>664215896Q</DNI>
+                <nombre>Alberto</nombre>
+            </autor>
+        </autores>
+        <titulo>Lobo solitario</titulo>
+        <editorial>Anaya</editorial>
+        <fecha>Enero 2020</fecha>
+        <codLibro>2211</codLibro>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellidos>González Anacardo</apellidos>
+                <DNI>998844332B</DNI>
+                <nombre>Javier</nombre>
+            </autor>
+        </autores>
+        <titulo>Luna Redonda </titulo>
+        <editorial>Quesos Film</editorial>
+        <fecha>Febrero 31</fecha>
+        <codLibro>7788</codLibro>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellidos>Sánchez Fernández</apellidos>
+                <DNI>668833112H</DNI>
+                <nombre>Silvia</nombre>
+            </autor>
+        </autores>
+        <titulo>La niña del pijama de rayas</titulo>
+        <editorial>Anaya</editorial>
+        <fecha>Diciembre 30</fecha>
+        <codLibro>2402</codLibro>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellidos>Mateos Gil</apellidos>
+                <DNI>771100234H</DNI>
+                <nombre>David</nombre>
+            </autor>
+        </autores>
+        <titulo>Pepito Grillo</titulo>
+        <editorial>Anaya</editorial>
+        <fecha>Julio 9</fecha>
+        <codLibro>8811</codLibro>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellidos>Gomez Sánchez</apellidos>
+                <DNI>991188225L</DNI>
+                <nombre>Laura</nombre>
+            </autor>
+        </autores>
+        <titulo>Ratoncito Perez</titulo>
+        <editorial>Anaya</editorial>
+        <fecha>Junio 3</fecha>
+        <codLibro>9999</codLibro>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellidos>Valle Guijo</apellidos>
+                <DNI>32076386P</DNI>
+                <nombre>Rocío</nombre>
+            </autor>
+        </autores>
+        <titulo>Pipi Calzarslargas</titulo>
+        <editorial>Anaya</editorial>
+        <fecha>Septiembre 2001</fecha>
+        <codLibro>6611</codLibro>
+    </libros>
+</libreria>

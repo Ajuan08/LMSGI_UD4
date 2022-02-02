@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE Clientes SYSTEM "Clientes.dtd">
+<clientes>
+    <departamento>
+        <sede>
+            <cliente1>
+                <codCliente>BBB 9-0-9</codCliente>
+                <NViviendas>4 viviendas</NViviendas>
+                <coste>20.000€</coste>
+                <resumen>Esto es un resumen</resumen>
+                <plazo>9 días</plazo>
+            </cliente1>
+            <codSede>P12345678</codSede>
+            <nombre>Pedro</nombre>
+            <fecha>Febrero 2022</fecha>
+            <descripcion>solvente</descripcion>
+        </sede>
+        <sede>
+            <cliente2>
+                <codCliente>AST 8-7-6</codCliente>
+                <NViviendas>2 viviendas</NViviendas>
+                <coste>24.000€</coste>
+                <resumen>Esto es un resumen</resumen>
+                <plazo>15 días</plazo>
+            </cliente2>
+            <codSede>O09876543</codSede>
+            <nombre>Sergio</nombre>
+            <fecha>Febrero 2020</fecha>
+            <descripcion>insolvente</descripcion>
+        </sede>
+    </departamento>
+</clientes>

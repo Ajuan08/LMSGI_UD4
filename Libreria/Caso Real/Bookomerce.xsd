@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Bookomerce">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Tienda1"/>
+        <xs:element ref="Tienda2"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Tienda1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="escritor1"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="codLibro"/>
+          <xs:element ref="escritor2"/>
+          <xs:element ref="fama"/>
+          <xs:element ref="fecha_publicacion"/>
+          <xs:element ref="titulo"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Tienda2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="escritor1"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="codLibro"/>
+          <xs:element ref="escritor2"/>
+          <xs:element ref="fama"/>
+          <xs:element ref="fecha_publicacion"/>
+          <xs:element ref="titulo"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="escritor1" type="autor"/>
+  <xs:element name="titulo" type="xs:string"/>
+  <xs:element name="fama" type="xs:NCName"/>
+  <xs:element name="fecha_publicacion" type="xs:string"/>
+  <xs:element name="codLibro" type="xs:integer"/>
+  <xs:element name="escritor2" type="autor"/>
+  <xs:complexType name="autor">
+    <xs:sequence>
+      <xs:element ref="autor"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="autor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="apellidos"/>
+        <xs:element ref="DNI"/>
+        <xs:element ref="nombre"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="apellidos" type="xs:string"/>
+  <xs:element name="DNI" type="xs:NMTOKEN"/>
+  <xs:element name="nombre" type="xs:string"/>
+</xs:schema>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="PcStore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Tienda1"/>
+        <xs:element ref="Tienda2"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Tienda1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Madrid"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Madrid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="cliente1"/>
+        <xs:element ref="CodPostal"/>
+        <xs:element ref="fecha"/>
+        <xs:element ref="descripcion"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Tienda2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Jerez"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Jerez">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="cliente1"/>
+        <xs:element ref="CodPostal"/>
+        <xs:element ref="fecha"/>
+        <xs:element ref="descripcion"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cliente1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre"/>
+        <xs:element ref="telefono"/>
+        <xs:element ref="email"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombre" type="xs:NCName"/>
+  <xs:element name="telefono" type="xs:integer"/>
+  <xs:element name="email" type="xs:string"/>
+  <xs:element name="CodPostal" type="xs:integer"/>
+  <xs:element name="fecha" type="xs:string"/>
+  <xs:element name="descripcion" type="xs:string"/>
+</xs:schema>

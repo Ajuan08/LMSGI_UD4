@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="IS0-8859-1"?>
+<!DOCTYPE concesionario SYSTEM "concesionario.dtd">
+<concesionario>
+        <coche>
+            <codCoche>00998877</codCoche>
+            <marca>Nissan</marca>
+            <modelo>GTR</modelo>
+            <matricula>2402DYG</matricula>
+            <potencia>300</potencia>
+            <plazas>2</plazas>
+            <numPuertas>5</numPuertas>
+        </coche>
+        <coche>
+            <codCoche>44556677</codCoche>
+            <marca>Seat</marca>
+            <modelo>Ibiza</modelo>
+            <matricula>5437KFC</matricula>
+            <potencia>100</potencia>
+            <plazas>5</plazas>
+            <numPuertas>5</numPuertas>
+        </coche>
+        <coche>
+            <codCoche>55890011</codCoche>
+            <marca>Toyota</marca>
+            <modelo>Auris</modelo>
+            <matricula>9234PLR</matricula>
+            <potencia>120</potencia>
+            <plazas>5</plazas>
+            <numPuertas>3</numPuertas>
+        </coche>
+        <coche>
+            <codCoche>11111110</codCoche>
+            <marca>Audi</marca>
+            <modelo>r8</modelo>
+            <matricula>7121KKK</matricula>
+            <potencia>200</potencia>
+            <plazas>2</plazas>
+            <numPuertas>3</numPuertas>
+        </coche>
+        <coche>
+            <codCoche>9634456</codCoche>
+            <marca>Mercedes</marca>
+            <modelo>AMG</modelo>
+            <matricula>2775VGH</matricula>
+            <potencia>250</potencia>
+            <plazas>2</plazas>
+            <numPuertas>3</numPuertas>
+        </coche>
+        <coche>
+            <codCoche>24022017</codCoche>
+            <marca>Volkswagen</marca>
+            <modelo>Golf R </modelo>
+            <matricula>8888SGV</matricula>
+            <potencia>260</potencia>
+            <plazas>5</plazas>
+            <numPuertas>5</numPuertas>
+        </coche>
+</concesionario>

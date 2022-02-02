@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT libreria (libros)*>
+<!ELEMENT libros (autores, titulo, editorial, fecha, codLibro)*>
+<!ELEMENT autores (autor)*>
+<!ELEMENT autor (apellidos, DNI, nombre)*>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT codLibro (#PCDATA)>

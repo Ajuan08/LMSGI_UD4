@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="IES_LOS_REMEDIOS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Asignaturas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Asignaturas">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element ref="LenguajeMarcas"/>
+        <xs:element ref="programacion"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LenguajeMarcas" type="Contenidos"/>
+  <xs:element name="programacion" type="Contenidos"/>
+  <xs:complexType name="Contenidos">
+    <xs:sequence>
+      <xs:element ref="Contenidos"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Contenidos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Tema1"/>
+        <xs:element ref="Tema2"/>
+        <xs:element ref="Tema3"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Tema1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="lenguaje"/>
+        <xs:element ref="tipo"/>
+        <xs:element ref="duracion"/>
+        <xs:element ref="descripcion"/>
+        <xs:element ref="nombre_profesor"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Tema2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="lenguaje"/>
+        <xs:element ref="tipo"/>
+        <xs:element ref="duracion"/>
+        <xs:element ref="descripcion"/>
+        <xs:element ref="nombre_profesor"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Tema3">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="lenguaje"/>
+        <xs:element ref="tipo"/>
+        <xs:element ref="duracion"/>
+        <xs:element ref="descripcion"/>
+        <xs:element ref="nombre_profesor"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lenguaje" type="xs:string"/>
+  <xs:element name="tipo" type="xs:NCName"/>
+  <xs:element name="duracion" type="xs:string"/>
+  <xs:element name="descripcion" type="xs:string"/>
+  <xs:element name="nombre_profesor" type="xs:NCName"/>
+</xs:schema>

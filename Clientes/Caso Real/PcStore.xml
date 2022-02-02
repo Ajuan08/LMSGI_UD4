@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE PcStore SYSTEM "PcStore.dtd">
+<PcStore>
+    <Tienda1>
+        <Madrid>
+            <cliente1>
+                <nombre>Juan</nombre>
+                <telefono>620577325</telefono>
+                <email>juanito@gmail.com</email>
+            </cliente1>
+            <CodPostal>11406</CodPostal>
+            <fecha>Marzo 2016</fecha>
+            <descripcion>Cliente muy habitual</descripcion>
+        </Madrid>
+       <Madrid>
+            <cliente1>
+                <nombre>Sergio</nombre>
+                <telefono>772299661</telefono>
+                <email>sergi@gmail.com</email>
+            </cliente1>
+            <CodPostal>11600</CodPostal>
+            <fecha>Enero 2019</fecha>
+            <descripcion>Cliente habitual</descripcion>
+        </Madrid>
+    </Tienda1>
+    <Tienda2>
+        <Jerez>
+            <cliente1>
+                <nombre>Alberto</nombre>
+                <telefono>009988776</telefono>
+                <email>alberto@gmail.com</email>
+            </cliente1>
+            <CodPostal>11406</CodPostal>
+            <fecha>Junio 2014</fecha>
+            <descripcion>Cliente desagradable</descripcion>
+        </Jerez>
+       <Jerez>
+            <cliente1>
+                <nombre>Airam</nombre>
+                <telefono>338811526</telefono>
+                <email>airam00@gmail.com</email>
+            </cliente1>
+            <CodPostal>11401</CodPostal>
+            <fecha>Febrero 2022</fecha>
+            <descripcion>Cliente nuevo</descripcion>
+        </Jerez>
+    </Tienda2>
+</PcStore>

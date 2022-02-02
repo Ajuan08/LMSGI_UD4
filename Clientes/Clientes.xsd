@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="clientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="departamento"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="departamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="sede"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sede">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice>
+          <xs:element ref="cliente1"/>
+          <xs:element ref="cliente2"/>
+        </xs:choice>
+        <xs:element ref="codSede"/>
+        <xs:element ref="nombre"/>
+        <xs:element ref="fecha"/>
+        <xs:element ref="descripcion"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cliente1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="codCliente"/>
+        <xs:element ref="NViviendas"/>
+        <xs:element ref="coste"/>
+        <xs:element ref="resumen"/>
+        <xs:element ref="plazo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cliente2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="codCliente"/>
+        <xs:element ref="NViviendas"/>
+        <xs:element ref="coste"/>
+        <xs:element ref="resumen"/>
+        <xs:element ref="plazo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="codSede" type="xs:NCName"/>
+  <xs:element name="nombre" type="xs:NCName"/>
+  <xs:element name="fecha" type="xs:string"/>
+  <xs:element name="descripcion" type="xs:NCName"/>
+  <xs:element name="codCliente" type="xs:string"/>
+  <xs:element name="NViviendas" type="xs:string"/>
+  <xs:element name="coste" type="xs:string"/>
+  <xs:element name="resumen" type="xs:string"/>
+  <xs:element name="plazo" type="xs:string"/>
+</xs:schema>

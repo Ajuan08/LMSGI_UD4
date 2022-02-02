@@ -1,0 +1,48 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Mercedes (modelos)>
+<!ATTLIST Mercedes
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT modelos (EQS,AMG,Clase)>
+<!ATTLIST modelos
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT EQS (codIdentificacion,modelo,matricula,potencia,plazas,
+               precio)>
+<!ATTLIST EQS
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT AMG (codIdentificacion,modelo,matricula,potencia,plazas,
+               precio)>
+<!ATTLIST AMG
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Clase (codIdentificacion,modelo,matricula,potencia,plazas,
+                 precio)>
+<!ATTLIST Clase
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT codIdentificacion (#PCDATA)>
+<!ATTLIST codIdentificacion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT modelo (#PCDATA)>
+<!ATTLIST modelo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT matricula (#PCDATA)>
+<!ATTLIST matricula
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT potencia (#PCDATA)>
+<!ATTLIST potencia
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT plazas (#PCDATA)>
+<!ATTLIST plazas
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio
+  xmlns CDATA #FIXED ''>

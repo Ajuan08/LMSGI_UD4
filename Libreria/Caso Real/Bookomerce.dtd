@@ -1,0 +1,55 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Bookomerce (Tienda1,Tienda2)>
+<!ATTLIST Bookomerce
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tienda1 (escritor1,
+                   (codLibro|escritor2|fama|fecha_publicacion|titulo)+)>
+<!ATTLIST Tienda1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tienda2 (escritor1,
+                   (codLibro|escritor2|fama|fecha_publicacion|titulo)+)>
+<!ATTLIST Tienda2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT escritor1 (autor)>
+<!ATTLIST escritor1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ATTLIST titulo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fama (#PCDATA)>
+<!ATTLIST fama
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fecha_publicacion (#PCDATA)>
+<!ATTLIST fecha_publicacion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT codLibro (#PCDATA)>
+<!ATTLIST codLibro
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT escritor2 (autor)>
+<!ATTLIST escritor2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT autor (apellidos,DNI,nombre)>
+<!ATTLIST autor
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT apellidos (#PCDATA)>
+<!ATTLIST apellidos
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT DNI (#PCDATA)>
+<!ATTLIST DNI
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre
+  xmlns CDATA #FIXED ''>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Instagram">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="contactos"/>
+        <xs:element maxOccurs="unbounded" ref="mensajes"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="contactos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre"/>
+        <xs:element ref="username"/>
+        <xs:element ref="fechaCreacion"/>
+        <xs:element ref="pais"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombre" type="xs:string"/>
+  <xs:element name="fechaCreacion" type="xs:string"/>
+  <xs:element name="pais" type="xs:NCName"/>
+  <xs:element name="mensajes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="remitente"/>
+        <xs:element ref="username"/>
+        <xs:element ref="fechaEnvio"/>
+        <xs:element ref="fechaRecepcion"/>
+        <xs:element ref="mensaje"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="id" type="xs:integer"/>
+  <xs:element name="remitente" type="xs:string"/>
+  <xs:element name="fechaEnvio" type="xs:string"/>
+  <xs:element name="fechaRecepcion" type="xs:string"/>
+  <xs:element name="mensaje" type="xs:string"/>
+  <xs:element name="username" type="xs:NCName"/>
+</xs:schema>
