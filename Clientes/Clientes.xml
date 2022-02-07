@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<!DOCTYPE Clientes SYSTEM "Clientes.dtd">
-<clientes>
-    <departamento>
+<Clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <sede>
             <cliente1>
                 <codCliente>BBB 9-0-9</codCliente>
@@ -28,5 +26,4 @@
             <fecha>Febrero 2020</fecha>
             <descripcion>insolvente</descripcion>
         </sede>
-    </departamento>
-</clientes>
+</Clientes>

@@ -1,5 +1,4 @@
 <?xml encoding="UTF-8"?>
-
 <!ELEMENT clientes (departamento)>
 <!ATTLIST clientes
   xmlns CDATA #FIXED ''>
